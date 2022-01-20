@@ -14,14 +14,8 @@ using namespace std;
 
 int main()
 {
-    int s1, s2, s3, s4;
-    cin >> s1 >> s2 >> s3 >> s4;
-    unordered_set<int> s;
-    s.insert(s1);
-    s.insert(s2);
-    s.insert(s3);
-    s.insert(s4);
-    int ans = 4 - s.size();
-    cout << ans << endl;
+    int n, k, l, c, d, p, nl, np;
+    cin >> n >> k >> l >> c >> d >> p >> nl >> np;
+    cout << min(k * l / nl, min(c * d, p / np)) / n << endl;
     return 0;
 }
