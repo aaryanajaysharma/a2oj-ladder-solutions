@@ -35,6 +35,12 @@
 .DS_Store
 # Useless system folder
 .*/
+
+#ignore files with no extension
+*
+!*.cpp
+tempCodeRunnerFile.cpp
+
 # Temporary files from editors
 tempCodeRunnerFile.cpp
 *.bin
