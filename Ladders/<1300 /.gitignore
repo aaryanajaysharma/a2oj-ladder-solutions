@@ -37,3 +37,4 @@
 .*/
 # Temporary files from editors
 tempCodeRunnerFile.cpp
+*.bin
